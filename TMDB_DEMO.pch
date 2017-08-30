@@ -1,0 +1,23 @@
+//
+//  TMDB_DEMO.pch
+//  TMDB_DEMO
+//
+//  Created by webskitters on 29/08/17.
+//  Copyright © 2017 developer. All rights reserved.
+//
+
+#ifndef TMDB_DEMO_pch
+#define TMDB_DEMO_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "NSDictionary+STHelper.h"
+#import "SVProgressHUD.h"
+#import <AFNetworking.h>
+#import "ServiceRequestHandler.h"
+#import "UIImageView+WebCache.h"
+
+
+#endif /* TMDB_DEMO_pch */
